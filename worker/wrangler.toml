@@ -1,0 +1,7 @@
+name = "senka-api"
+main = "src/index.js"
+compatibility_date = "2026-09-10"
+
+[vars]
+# 本番では Pages の公開URLに置き換える。未設定時はローカル検証用に * を使用。
+ALLOWED_ORIGIN = "*"
